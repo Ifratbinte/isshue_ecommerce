@@ -2444,7 +2444,10 @@ td.total h6 {
 }
 
 .registration-form span {
-    color: red;
+    color: #fe696a;
+}
+.registration-form p{
+    color: #fe696a;
 }
 
 .registration-card form {
