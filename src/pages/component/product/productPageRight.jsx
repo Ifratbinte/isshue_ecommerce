@@ -1,15 +1,14 @@
 import React, {useState} from 'react'
 import Product from './product'
-// import LoadMore from '../reactActions/loadMore'
 
-const ProductPageRight = () => {
+function ProductPageRight(props){
 
     const [product] = useState(Product);
     const [noOfElement, senoOfElement] = useState(8);
     const loadMore = () => {
         senoOfElement(noOfElement + noOfElement);
     }
-    const slice = product.slice(0, noOfElement)
+    const slice = product.slice(0, noOfElement);
 
   return (
     <div className="col-md-9">
