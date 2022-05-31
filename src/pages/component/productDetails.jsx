@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import DetailsContent from './productDetails/productDetailsContent'
 import ProductDetailsTab from './productDetails/DetailsTab';
 import WinterCollection from './product/winterCollection'
+import IncrementDecrement from './cart/incrementDecrement';
 
 class ProductDetails extends Component {
   render() {
@@ -38,9 +39,9 @@ class ProductDetails extends Component {
               </div>
             </div>
         </div>
-
         
-        <DetailsContent />
+        
+        <DetailsContent/>
         <ProductDetailsTab />
         <section className="related-product-section section-gap">
             <div className="container">

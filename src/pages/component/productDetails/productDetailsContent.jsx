@@ -2,15 +2,16 @@ import React from 'react'
 import IncrementDecrement from '../cart/incrementDecrement';
 
 
-const ProductDetailsContent = ({match}) => {
-    <div className="product-zoom">
+const ProductDetailsContent = () => {
+    return(
+        <div className="product-zoom">
         <div className="container">
             <div className="product-details-inner">
                 
                 <div className="row">
                     <div className="col-lg-5">
                         <div className="data-img">
-                            <img className=" img-fluid zoom-img-default" id="zoom-img" src="assets/img/isshue/thumb/thumb-9.png" data-zoom-image="img/single-product/datazoom1.jpg" alt=""/>
+                            <img className=" img-fluid" id="" src="assets/img/isshue/thumb/thumb-9.png" data-zoom-image="img/single-product/datazoom1.jpg" alt=""/>
                         </div>
                     </div>
                     <div className="col-lg-7">
@@ -39,5 +40,6 @@ const ProductDetailsContent = ({match}) => {
             </div>
         </div>
     </div>
+    )
 };
 export default ProductDetailsContent;

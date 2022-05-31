@@ -8,7 +8,7 @@ function WinterCollection() {
     <>
         <div className="row align-items-center justify-content-center justify-content-sm-between mb-5 mb-sm-2">
             <div className="col-12 col-sm-auto text-center text-sm-left mb-2 mb-sm-0">
-                <a href=""><h3 className="category-headdin">Electronics</h3></a>
+                <a href="#"><h3 className="category-headdin">Electronics</h3></a>
             </div>
             <div className="col-8 col-sm-5 col-md-4 col-lg-3">
               <form action="#">

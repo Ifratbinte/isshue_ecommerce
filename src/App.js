@@ -15,6 +15,8 @@ import Newslatter from './pages/component/newslatter';
 import Thanks from './pages/component/thankYou'
 import Footer from './pages/component/layout/footer'
 
+
+
 // form
 import Login from './pages/component/Form/login'
 import Registration from './pages/component/Form/registration'
@@ -37,14 +39,14 @@ class App extends Component {
                 <Route path = "/" exact element={<Home />}/>
                 <Route path="/about" element={<About/>}/>
                 <Route path = "/product" element={<Product />} />
-                <Route path = "/product-details/:title" element={<ProductDetails />} />
+                <Route path = "/product-details" element={<ProductDetails />} />
                 <Route path = "/cart" element={<Cart />} />
                 <Route path = "/checkout" element={<Checkout />} />
                 <Route path = "/contact" element={<Contact />} />
                 <Route path = "/compare" element={<Compare />} />
                 <Route path = "/terms" element={<Terms />} />
                 <Route path = "/grettings" element={<Thanks />} />
-
+                
                 {/* form */}
                 <Route path = "/login" element={<Login />} />
                 <Route path = "/registration" element={<Registration />} />
