@@ -5,6 +5,11 @@ import Product from './product'
 const ProductPageRight = () => {
 
     const [product] = useState(Product);
+    const [noOfElement, senoOfElement] = useState(8);
+    const loadMore = () => {
+        senoOfElement(noOfElement + noOfElement);
+    }
+    const slice = product.slice(0, noOfElement)
 
   return (
     <div className="col-md-9">
@@ -18,7 +23,7 @@ const ProductPageRight = () => {
             </div>
             <div className="row ">
                 {
-                    product.map((elem) => {
+                    slice.map((elem) => {
                         const {id, image, title, price} = elem;
                         return(
                             <div key={id} className="col-lg-3 col-md-4 col-6 mb-3">
@@ -43,6 +48,7 @@ const ProductPageRight = () => {
                     })
                 }
             </div>
+            <button className="button-primary" onClick={() => loadMore()}>Load More</button>
         </div>
     </div>
   )
