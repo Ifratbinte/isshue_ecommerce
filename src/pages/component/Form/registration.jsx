@@ -62,7 +62,7 @@ const Registration = () => {
                                 </div>
                                 <div className="form-group">
                                     <label htmlFor="phone">Phone Number<span>*</span></label>
-                                    <input type="text" className="form-control" id="phone" autoComplete='off' value={userReg.phone} onChange={handleInput} name="phone" placeholder='Enter phone number'/>
+                                    <input type="number" className="form-control" id="phone" autoComplete='off' value={userReg.phone} onChange={handleInput} name="phone" placeholder='Enter phone number'/>
                                 </div>
                                 <div className="form-group">
                                     <label htmlFor="password ">Password<span>*</span></label>
