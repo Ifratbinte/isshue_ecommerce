@@ -39,7 +39,7 @@ class HeaderTop extends Component {
                                         </div>
                                     </div>
                                 </li>
-                                <li><a href="/registration"><i className="fa fa-user-o"></i> Sign In</a></li>
+                                <li><a href="/login"><i className="fa fa-user-o"></i> Sign In</a></li>
                             </ul>
                         </div>
                     </div>
