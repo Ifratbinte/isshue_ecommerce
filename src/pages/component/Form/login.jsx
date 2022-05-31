@@ -65,7 +65,7 @@ function Login() {
                                     <input type="checkbox" className="form-check-input" id="checkbox"/>
                                     <label className="form-check-label" htmlFor="checkbox">Remembar Me</label>
                                 </div>
-                                <a href="" className='forget-text'>I Have Forgotten My Password</a>
+                                <a href="/password-recovery" className='forget-text'>I Have Forgotten My Password</a>
                             </div>
                             <button className="button-primary" type="submit">Login</button>
                         </div>
