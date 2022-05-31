@@ -9,6 +9,7 @@ import ProductDetails from './pages/component/productDetails'
 import Cart from './pages/component/cart'
 import Checkout from './pages/component/checkout'
 import Contact from './pages/component/contact'
+import Compare from './pages/component/compare'
 import Terms from './pages/component/terms'
 import Newslatter from './pages/component/newslatter';
 import Thanks from './pages/component/thankYou'
@@ -36,10 +37,11 @@ class App extends Component {
                 <Route path = "/" exact element={<Home />}/>
                 <Route path="/about" element={<About/>}/>
                 <Route path = "/product" element={<Product />} />
-                <Route path = "/product-details" element={<ProductDetails />} />
+                <Route path = "/product-details/:title" element={<ProductDetails />} />
                 <Route path = "/cart" element={<Cart />} />
                 <Route path = "/checkout" element={<Checkout />} />
                 <Route path = "/contact" element={<Contact />} />
+                <Route path = "/compare" element={<Compare />} />
                 <Route path = "/terms" element={<Terms />} />
                 <Route path = "/grettings" element={<Thanks />} />
 

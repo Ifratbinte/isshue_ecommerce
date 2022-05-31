@@ -3790,3 +3790,18 @@ img.checkout-item {
 }
 
 /* Footer end */
+
+/* compare */
+.table-compare img{
+    min-height: 100%;
+    width: 150px;
+}
+.table-compare .product-title a{
+    color: #008000;
+}
+.table-compare p{
+    font-size: 1rem;
+}
+.table-compare th{
+    font-weight: 700;
+}

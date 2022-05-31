@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import ProductZoom from './productDetails/productZoom'
+import DetailsContent from './productDetails/productDetailsContent'
 import ProductDetailsTab from './productDetails/DetailsTab';
 import WinterCollection from './product/winterCollection'
 
@@ -20,7 +20,7 @@ class ProductDetails extends Component {
               <div className="col-md-8">
                   <h4 className='mb-3'>Rechargeable Fan - Magnetic wired Bluetooth earphones Music headset With Mic Earbuds Pk I12 Tws Airpos I900</h4>
                   <ul className="entry-meta d-flex flex-wrap align-items-centerm-0">
-                      <li className="meta-brand position-relative"> Brand: <a href="" className="meta-value">panasonic</a></li>
+                      <li className="meta-brand position-relative"> Brand: <a href="" className="meta-value">Panasonic</a></li>
                       <li className="position-relative">
                           <div className="product-rating d-flex align-items-center">
                               <div className="star-rating mb-0 mr-1">
@@ -40,7 +40,7 @@ class ProductDetails extends Component {
         </div>
 
         
-        <ProductZoom />
+        <DetailsContent />
         <ProductDetailsTab />
         <section className="related-product-section section-gap">
             <div className="container">

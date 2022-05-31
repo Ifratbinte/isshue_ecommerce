@@ -5,11 +5,11 @@ class HeaderAction extends Component {
     return (
         <ul className="navbar-tool-list">
             <li className="navbar-tool">
-                <a className="navbar-tool-icon-box bg-secondary" href="#">
+                <a className="navbar-tool-icon-box bg-secondary" href="/compare">
                     <span className="navbar-tool-label">0</span>
                     <i className="fa fa-exchange" aria-hidden="true"></i>
                 </a>
-                <a className="navbar-tool-text d-none d-xl-block" href="#"><small>Product</small><br />Compare</a>
+                <a className="navbar-tool-text d-none d-xl-block" href="/compare"><small>Product</small><br />Compare</a>
             </li>
             <li className="navbar-tool">
                 <a className="navbar-tool-icon-box bg-secondary" href="#">
