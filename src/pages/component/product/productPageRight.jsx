@@ -13,12 +13,12 @@ function ProductPageRight(props){
   return (
     <div className="col-md-9">
         <div className="product-right">
-            <div class="d-flex align-items-center justify-content-between mb-2">
-                <div class="filter-title">
-                    <h4 class="d-inline-block">Winter Collection</h4>
-                    <span class="text-black-50">- 11 Items</span>
+            <div className="d-flex align-items-center justify-content-between mb-2">
+                <div className="filter-title">
+                    <h4 className="d-inline-block">Winter Collection</h4>
+                    <span className="text-black-50">- 11 Items</span>
                 </div>
-                <a class="btn button-primary text-white" href=""><i class="fa fa-hand-o-left" aria-hidden="true"></i> Back to home</a>
+                <a className="btn button-primary text-white" href=""><i className="fa fa-hand-o-left" aria-hidden="true"></i> Back to home</a>
             </div>
             <div className="row ">
                 {

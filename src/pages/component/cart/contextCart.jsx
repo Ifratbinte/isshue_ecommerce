@@ -34,20 +34,20 @@ const ContextCart = () => {
                                         }
                                     </Scrollbars>
                                 </div>
-                                <div class="row justify-content-between mt-5">
-                                    <div class="col-md-5 col-lg-5">
+                                <div className="row justify-content-between mt-5">
+                                    <div className="col-md-5 col-lg-5">
                                     </div>
-                                    <div class="col-md-5 col-lg-5 text-right">
-                                        <ul class="subtotal list-unstyled">
+                                    <div className="col-md-5 col-lg-5 text-right">
+                                        <ul className="subtotal list-unstyled">
                                             <li className='d-flex justify-content-between'>
                                                 <h4>Sub Total: </h4>
                                                 <span>$ {totalAmount}</span>
                                             </li>                                
                                         </ul>
                                         <hr/>
-                                        <div class="site-footer mt-3">
-                                            <h4 class="sub-total text-right mb-3">Total : <span>$ {totalAmount}</span></h4>
-                                            <a class="btn button-primary btn-block" href="/checkout">Checkout</a>
+                                        <div className="site-footer mt-3">
+                                            <h4 className="sub-total text-right mb-3">Total : <span>$ {totalAmount}</span></h4>
+                                            <a className="btn button-primary btn-block" href="/checkout">Checkout</a>
                                         </div>
                                     </div>
                                 </div>
@@ -85,20 +85,20 @@ const ContextCart = () => {
                                 }
                             </Scrollbars>
                         </div>
-                        <div class="row justify-content-between mt-5">
-                            <div class="col-md-5 col-lg-5">
+                        <div className="row justify-content-between mt-5">
+                            <div className="col-md-5 col-lg-5">
                             </div>
-                            <div class="col-md-5 col-lg-5 text-right">
-                                <ul class="subtotal list-unstyled">
+                            <div className="col-md-5 col-lg-5 text-right">
+                                <ul className="subtotal list-unstyled">
                                     <li className='d-flex justify-content-between'>
                                         <h4>Sub Total: </h4>
                                         <span>$ {totalAmount}</span>
                                     </li>                                
                                 </ul>
                                 <hr/>
-                                <div class="site-footer mt-3">
-                                    <h4 class="sub-total text-right mb-3">Total : <span>$ {totalAmount}</span></h4>
-                                    <a class="btn button-primary btn-block" href="/checkout">Checkout</a>
+                                <div className="site-footer mt-3">
+                                    <h4 className="sub-total text-right mb-3">Total : <span>$ {totalAmount}</span></h4>
+                                    <a className="btn button-primary btn-block" href="/checkout">Checkout</a>
                                 </div>
                             </div>
                         </div>

@@ -3,17 +3,17 @@ import React, { Component } from 'react'
 class About extends Component {
   render() {
     return (
-        <section class="about-page-area section-gap-lg">
-            <div class="about-top">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-5">
-                            <div class="about-logo">
+        <section className="about-page-area section-gap-lg">
+            <div className="about-top">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-5">
+                            <div className="about-logo">
                                 <img className='img-fluid' src="assets/img/isshue/site-logo.png" alt=""/>
                             </div>
                         </div>
-                        <div class="col-lg-7">
-                            <div class="about-text ">
+                        <div className="col-lg-7">
+                            <div className="about-text ">
                                 <h3 className='mb-3'>About US</h3>
                                 <p>Bdtask is the most creative software company in Bangladesh. It is one of the best software company for custom mobile, web and desktop software development. </p>
                                 <a href="/contact" className='btn button-primary button-round border-0'>Contact Us</a>
@@ -22,14 +22,14 @@ class About extends Component {
                     </div>
                 </div>
             </div>
-            <div class="about-bottom-area section-gap-lg">
-                <div class="container">
+            <div className="about-bottom-area section-gap-lg">
+                <div className="container">
                     <h3 className="text-center">Why Choose US</h3>
                     <hr />
                     <div className="about-bottom-text">
                         <div className="single-about-item about-text">
                             <span className='d-flex align-items-center'>
-                                <i class="fa fa-gift" aria-hidden="true"></i>
+                                <i className="fa fa-gift" aria-hidden="true"></i>
                                 <h3 className='ml-2 mb-2'>Gift Box</h3>
                             </span>
                             <p>The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary.</p>

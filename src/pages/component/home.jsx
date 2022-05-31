@@ -17,9 +17,9 @@ class Home extends Component {
       <div className='top-res-gap'>
 
         {/* Hero Slider */}
-        <div class="hero-slider position-relative">
-          <div class="header-slider">
-            <div class="animation-slide">
+        <div className="hero-slider position-relative">
+          <div className="header-slider">
+            <div className="animation-slide">
                 <HeroSection />
             </div>
           </div>
@@ -51,9 +51,9 @@ class Home extends Component {
                             <div className="img-area_header mb-2">
                                 <p className="mb-1">Women's Fashion</p>
                                 <h3 className="img-area_header-title mb-0">Hoodies -Wireless Audio System Multiroom 360 degree</h3>
-                                <div class="product-offer-label d-flex align-items-center justify-content-center text-white flex-column position-absolute shadow">
-                                    <span class="mb-1 offer-percent">10%</span> 
-                                    <small class="offer-text">Offers</small>
+                                <div className="product-offer-label d-flex align-items-center justify-content-center text-white flex-column position-absolute shadow">
+                                    <span className="mb-1 offer-percent">10%</span> 
+                                    <small className="offer-text">Offers</small>
                                 </div>
                             </div>
                             

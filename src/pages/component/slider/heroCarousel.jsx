@@ -13,13 +13,13 @@ function heroCarousel() {
   };
   return (
     <HeroSlider {...slickHero}>
-      <div class="item slider-item bg-img-hero d-flex align-items-center justify-content-center">
+      <div className="item slider-item bg-img-hero d-flex align-items-center justify-content-center">
         <a href=""><img src="assets/img/isshue/slider/slider_1.png"/></a>
       </div>
-      <div class="item slider-item bg-img-hero d-flex align-items-center justify-content-center">
+      <div className="item slider-item bg-img-hero d-flex align-items-center justify-content-center">
         <a href=""><img src="assets/img/isshue/slider/slider_2.png"/></a>
       </div>
-      <div class="item slider-item bg-img-hero d-flex align-items-center justify-content-center">
+      <div className="item slider-item bg-img-hero d-flex align-items-center justify-content-center">
         <a href=""><img src="assets/img/isshue/slider/slider_3.png"/></a>
       </div>
         

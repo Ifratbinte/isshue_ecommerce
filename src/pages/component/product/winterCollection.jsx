@@ -55,11 +55,11 @@ function WinterCollection() {
               </div>
             })
           }
-          <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-3">
-              <div class="deals-item-inner deals-item-all bg-white overflow-hidden border position-absolute top-0 left-0 right-0 bottom-0 d-flex align-items-center text-center">
+          <div className="col-6 col-sm-4 col-md-3 col-lg-2 mb-3">
+              <div className="deals-item-inner deals-item-all bg-white overflow-hidden border position-absolute top-0 left-0 right-0 bottom-0 d-flex align-items-center text-center">
                   <div>
-                      <h5 class="mb-3">12 + Items Available</h5>
-                      <a href="/product" class="btn button-primary btn-sm text-white font-weight-500">View All<i className='fa fa-arrow-right ml-2'></i></a>
+                      <h5 className="mb-3">12 + Items Available</h5>
+                      <a href="/product" className="btn button-primary btn-sm text-white font-weight-500">View All<i className='fa fa-arrow-right ml-2'></i></a>
                   </div>
               </div>
           </div>
