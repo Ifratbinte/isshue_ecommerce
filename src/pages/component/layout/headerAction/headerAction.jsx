@@ -28,9 +28,9 @@ class HeaderAction extends Component {
                 <div className="cart-dropdown">
                     <div className="cart-scroll-content">
                         <div className="single-cart-item d-flex">
-                            <a href="/" className="cart-first-child">
+                            <a href="/cart" className="cart-first-child">
                                 <div className="cart-item-content media">
-                                    <img src="assets/img/isshue/product/category_2/product_10.jpg" alt="" className=""/>
+                                    <img src="assets/img/isshue/product/category_1/product_1.jpg" alt="" className=""/>
                                     <div className="d-flex align-items-center">
                                         <div className="cart-p-price media-body">
                                             <h6 className="">Bangless 5 -Nine West Silver-Tone and Floater Quisque de </h6>
@@ -42,9 +42,9 @@ class HeaderAction extends Component {
                             </a>
                         </div>
                         <div className="single-cart-item d-flex">
-                            <a href="/">
+                            <a href="/cart">
                                 <div className="cart-item-content media">
-                                    <img src="assets/img/isshue/product/category_1/product_1.jpg" alt="" className=""/>
+                                    <img src="assets/img/isshue/product/category_1/product_2.jpg" alt="" className=""/>
                                     <div className="d-flex align-items-center">
                                         <div className="cart-p-price media-body">
                                             <h6 className="">High hill - Calvin Klein Women's Brady Pump</h6>

@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import { CartContext } from '../cart';
 
-const CartItems = ({id, image, title, price, amount }) => {
+const CartItems = ({id, image, title, price, serial, amount, prodStatus }) => {
 
     const {removeItem, increment, decrement} = useContext(CartContext);
     
@@ -11,7 +11,7 @@ const CartItems = ({id, image, title, price, amount }) => {
                 <div className="cart-info-wrap d-flex align-items-center justify-content-between">
                     <div className="cart-area">
                         <img src={image} className="card-item-img float-left d-block pr-3" alt="image"/>
-                        <p className="cart-item-number mb-1">#001</p>
+                        <p className="cart-item-number mb-1">{serial}</p>
                         <h5 className="mb-3">{title}</h5>
                         <div className="d-flex align-items-center">
                             <div className="num-block">
@@ -22,7 +22,7 @@ const CartItems = ({id, image, title, price, amount }) => {
                                 </div>
                             </div>
                             <span className="fs-14"> x ${price}</span>
-                            <span className="stockStatus text-uppercase pl-2 fs-13 font-weight-bold">In Stock</span>
+                            <span className="stockStatus text-uppercase pl-2 fs-13 font-weight-bold">{prodStatus}</span>
                         </div>
                     </div>
                     <div className="cart-price-section d-flex">

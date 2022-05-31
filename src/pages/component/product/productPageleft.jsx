@@ -54,7 +54,7 @@ class ProductPageleft extends Component {
 
                 <div className="card mb-4">
                     <div className="card-header d-flex align-items-center justify-content-between">
-                        <h5 className="mb-0">Size</h5>
+                        <h5 className="mb-0">Brand</h5>
                         <i className="fa fa-sliders card-header_icon" aria-hidden="true"></i>
                     </div>
                     

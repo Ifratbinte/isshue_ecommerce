@@ -27,13 +27,13 @@ const Checkout = () => {
                                         <p>If you have shopped with us before, please enter your details in the boxes below. If you are a new customer please proceed to the Billing &amp; Shipping section.</p>
                                         <form>
                                             <div className="row">
-                                                <div className="col-md-6">
+                                                <div className="form-group col-md-6">
                                                     <div className="form-group">
                                                         <label htmlFor="email">Email address<span>*</span></label>
                                                         <input type="email" className="form-control" id="email" aria-describedby="emailHelp"/>
                                                     </div>
                                                 </div>
-                                                <div className="col-md-6">
+                                                <div className="form-group col-md-6">
                                                     <div className="form-group">
                                                         <label htmlFor="password">Password<span>*</span></label>
                                                         <input type="password" className="form-control" id="password"/>
@@ -54,24 +54,25 @@ const Checkout = () => {
                                 <div className="billing-section">
                                     <h4>Biiling Details</h4>
                                     <div className="billing-information">
+                                        <form>
                                         <div className="row">
-                                            <div className="col-md-6">
+                                            <div className="form-group col-md-6">
                                                 <label htmlFor="first">First Name<span>*</span></label>
-                                                <input type="text" id="fir"/>
+                                                <input type="text" className="form-control" id="fir"/>
                                             </div>
-                                            <div className="col-md-6">
+                                            <div className="form-group col-md-6">
                                                 <label htmlFor="last">Last Name<span>*</span></label>
-                                                <input type="text" id="last"/>
+                                                <input type="text" className="form-control" id="last"/>
                                             </div>
-                                            <div className="col-md-6">
+                                            <div className="form-group col-md-6">
                                                 <label htmlFor="email">Customer Email</label>
-                                                <input type="text" id="email"/>
+                                                <input type="text" className="form-control" id="email"/>
                                             </div>
-                                            <div className="col-md-6">
+                                            <div className="form-group col-md-6">
                                                 <label htmlFor="phone">Customer Mobile<span>*</span></label>
-                                                <input type="text" id="phone"/>
+                                                <input type="text" className="form-control" id="phone"/>
                                             </div>
-                                            <div className="col-md-6">
+                                            <div className="form-group col-md-6">
                                                 <label htmlFor="district">Country<span>*</span></label>
                                                 <select id="district">
                                                     <option className="custom-select" value="Bagladesh" selected>Bangladesh</option>
@@ -83,11 +84,11 @@ const Checkout = () => {
                                                     <option value="6">Japan</option>
                                                 </select>
                                             </div>
-                                            <div className="col-md-6">
+                                            <div className="form-group col-md-6">
                                                 <label htmlFor="address1">Address 1<span>*</span></label>
-                                                <input type="text" id="address1" placeholder="House number and steet name" className="address1-first"/>
+                                                <input type="text" className="form-control" id="address1" placeholder="House number & streat name"/>
                                             </div>
-                                            <div className="col-md-6">
+                                            <div className="form-group col-md-6">
                                                 <label htmlFor="district">District<span>*</span></label>
                                                 <select id="district">
                                                     <option className="custom-select" value="Bagladesh" selected></option>
@@ -99,19 +100,20 @@ const Checkout = () => {
                                                     <option value="chandpur">Chandpur</option>
                                                 </select>
                                             </div>
-                                            <div className="col-md-6">
+                                            <div className="form-group col-md-6">
                                                 <label htmlFor="address2">Address 2<span>*</span></label>
-                                                <input type="text" id="address2" placeholder="Address2" className="address1-first"/>
+                                                <input type="text" className="form-control" id="address2" placeholder="Address2"/>
                                             </div>
-                                            <div className="col-md-6">
+                                            <div className="form-group col-md-6">
                                                 <label htmlFor="town">City<span>*</span></label>
-                                                <input type="text" id="town" placeholder='City'/>
+                                                <input type="text" className="form-control" id="town" placeholder='City'/>
                                             </div>
-                                            <div className="col-md-6">
+                                            <div className="form-group col-md-6">
                                                 <label htmlFor="zip">Postcode / ZIP (optional)</label>
-                                                <input type="text" id="zip" placeholder='Zip'/>
+                                                <input type="text" className="form-control" id="zip" placeholder='Zip'/>
                                             </div>
                                         </div>
+                                        </form>
                                     </div>
                                     <div className="billing-terms">
                                         <div className="form-group form-check m-1">

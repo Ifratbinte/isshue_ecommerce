@@ -28,7 +28,7 @@ function Gadget() {
                                 <div className="price">${price}</div>
                             </div>
                         </div>
-                        <a href="" className="btn btn-soft-primary btn-pill add-to-cartd-inline-flex align-items-center mt-2">
+                        <a href="/cart" className="btn btn-soft-primary btn-pill add-to-cartd-inline-flex align-items-center mt-2">
                         <i className="fa fa-cart-plus mr-2"></i>Add To Cart                                        
                         </a>	
                     </div>

@@ -46,7 +46,7 @@ const Registration = () => {
                             <h3>Create an account</h3>
                             <p>For registration please fillup the required field</p>
                         </div>
-                        <form action='' onSubmit={handleSubmit}>
+                        <form onSubmit={handleSubmit}>
                             <div className="registration-form">
                                 <div className="form-group">
                                     <label htmlFor="first">First Name<span>*</span></label>
